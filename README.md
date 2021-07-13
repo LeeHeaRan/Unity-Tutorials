@@ -1,6 +1,4 @@
-# UnityFundamentals
- 
-유니티 기본 기능
+# Unity Fundamentals 유니티 기본 기능
 
 
 ## Fundamentals

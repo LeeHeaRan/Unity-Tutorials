@@ -40,7 +40,6 @@
 
 *V: 오브젝트 클릭 후 - 모서리를 선택 - 중앙을 잡고 객체이동. 스냅을 준다.
 
-
 -Package Manager: 프로젝트의 다양한 요구 사항에 적합한 기능.
 
 ProBuilder를 Install : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 

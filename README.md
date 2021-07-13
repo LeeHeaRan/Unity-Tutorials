@@ -43,6 +43,24 @@
 -Package Manager: 프로젝트의 다양한 요구 사항에 적합한 기능.
 
 ProBuilder를 Install : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 
+*New Poly Shape: 점을 연결하여 객체를 생성.
+
+*Extrude Faces: 면을 뽑는다.
+
+*New Shape: cube 생성.
+
+*Filp Normals: 투명하게 볼 수 있음.
+
+*Insert Edge Loop: 블랜더의 나이프.
+
+ 
+-Adding control: import "First Person All-in-One" at Assets storje.
+
+
+
+
+
+
 
 
 

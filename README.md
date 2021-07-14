@@ -1,4 +1,4 @@
-# Unity Fundamentals 유니티 기본 기능
+# 유니티 기본학습
 
 
 ## Fundamentals
@@ -67,6 +67,8 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 ### 8. Per Object Limte: 허용되는 빛의 수 제한. 멀리있는 right가 동작하지 않을 때. project setting->Graphics->Scriptable Render Pipeline Settings의 오브젝트 클릭->inspector에서 per object limie값 조절.
 
 
+
+## Materials and Lighting
 
 
 

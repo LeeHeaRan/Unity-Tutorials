@@ -42,7 +42,7 @@
 
 ### 7. Package Manager: 프로젝트의 다양한 요구 사항에 적합한 기능.
 
-### ProBuilder를 Install : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 
+### **★★★ProBuilder를 Install** : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 
 
 <img width="316" alt="캡처" src="https://user-images.githubusercontent.com/48555909/125590978-96e1214c-cc34-40a9-9982-286bd755a6f3.PNG">
 
@@ -59,16 +59,39 @@
 
 ### Post Processing을 Install : Volume을 사용하기 위함.
 
-Volume: 후처리 작업. 영상에 필터와 효과를 적용. 
+**Volume**: 후처리 작업. 영상에 필터와 효과를 적용. 
 
 GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Intensity조절.->Camera에서  Post Processing체크, anti-aliasing에서 첫번째거 선택.
 
 
-### 8. Per Object Limte: 허용되는 빛의 수 제한. 멀리있는 right가 동작하지 않을 때. project setting->Graphics->Scriptable Render Pipeline Settings의 오브젝트 클릭->inspector에서 per object limie값 조절.
+### 8. **Per Object Limte**: 허용되는 빛의 수 제한. 멀리있는 right가 동작하지 않을 때. project setting->Graphics->Scriptable Render Pipeline Settings의 오브젝트 클릭->inspector에서 per object limie값 조절.
 
 
 
 ## Materials and Lighting
+
+###1. Materials : 재질 클래스를 나타냄. 
+보라색으로 나오는 문제. 왜 그런거지?
+###2. Lighting : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

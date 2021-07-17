@@ -42,7 +42,7 @@
 
 ### 7. Package Manager: 프로젝트의 다양한 요구 사항에 적합한 기능.
 
-### **★★★ProBuilder를 Install** : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 
+### **-★★★ProBuilder를 Install** : tools->probuilder window. 오브젝트, 점, 선, 면으로 객체를 생성할 수 있다. https://unity3d.com/kr/unity/features/worldbuilding/probuilder 
 
 <img width="316" alt="캡처" src="https://user-images.githubusercontent.com/48555909/125590978-96e1214c-cc34-40a9-9982-286bd755a6f3.PNG">
 
@@ -57,7 +57,7 @@
 *Insert Edge Loop: 블랜더의 나이프.
 
 
-### Post Processing을 Install : Volume을 사용하기 위함.
+### -Post Processing을 Install : Volume을 사용할 수 있다.
 
 **Volume**: 후처리 작업. 영상에 필터와 효과를 적용. 
 
@@ -70,9 +70,11 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 
 ## Materials and Lighting
 
-###1. Materials : 재질 클래스를 나타냄. 
-보라색으로 나오는 문제. 왜 그런거지?
-###2. Lighting : 
+### 1. Materials : 재질 클래스를 나타냄. 
+-대부분의 meterial이 shader가 standard로 설정되어 있다.   
+-Albedo: 텍스처 이미지 파일, 색상을 넣을 수 있다.
+## mesh Renderer
+### 2. Lighting : 
 
 
 

@@ -70,35 +70,25 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 
 ## Materials and Lighting
 
-### 1. Materials : 재질 클래스를 나타냄. 
+### 1. Materials : 재질과 관련된 객체. 
 -대부분의 meterial이 shader가 standard로 설정되어 있다.   
--Albedo: 텍스처 이미지 파일, 색상을 넣을 수 있다.
-## mesh Renderer
-### 2. Lighting : 
+-HDRP: https://unity.com/kr/how-to/getting-started-high-definition-render-pipeline-hdrp-games   
+-**High Definition Materials**를 사용하기 위해서는 Edit-Render Pipeline-Upgrade Selected Materials to High Definition Materials로 설정해야한다. Shader를 HDRP/Lit로 변경. Surface Inputs의 Base Map에 텍스쳐를 넣어준다.   *불러온 객체가 보라색일 때 해결법   
+-Albedo: 기본 standard. 텍스처 이미지 파일, 색상을 넣을 수 있다.   
+#### Base Map(.tif/.png): 색상과 텍스쳐를 설정. Texture Type: Defauit   
+#### Normal Map(.tif): 빛에 대한 굴곡을 설정. Texture Type: Nomal map   
+-노멀맵 만들기: 텍스쳐 이미지를 복사 - Texture Type: Nomal map으로 변경, filtering: sharp 또는 Smooth 선택 - Apply - nomal map생성!      
+*Emission - Tiling: 가로 세로 갯수 조절
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### 2. Lighting : 빛과 관련된 객체.
+-종류: Directional Light, Point Light, Spotlinght, Area Light, Planar Reflecion Probe, Reflecction Probe, Light Probe Group   
+#### Area Light: Spape로 모양 설정이 가능.   
+#### Point Light: Mode에서 설정 가능. 
+-Lighting Seting: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
+#### LightMap Resoultion: 퀄리티 조절.
+#### Bounces : 반사 횟수 조절.
+*LightMap : ???   
+*static: 정적 오브젝트. 
 
 
 

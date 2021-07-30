@@ -85,11 +85,10 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 #### Area Light: Shape-Shape로 모양 설정이 가능.   
 #### Point Light: Mode에서 설정 가능. 
 -Lighting Seting-Lighting-Scene-new lighting settings: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
-#### LightMap Resoultion: 퀄리티 조절.
+#### LightMap Resoultion: 퀄리티 조절. 높을수록 하이퀄리티.
 #### Bounces : 반사 횟수 조절.
-*LightMap : ???   
-*static: 정적 오브젝트. 
-
+#### point light->Emission->IndirectMultipiler조절후 적용하기 위해서는 lighting setting에서 GenerateLighting을 해야함. =>귀찮으니까 Auto Generate해놓자.
+*Indirect Multiplier: 간접광과 환경광의 영향력을 조절한다. 
 
 
 

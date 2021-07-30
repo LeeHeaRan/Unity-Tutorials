@@ -82,9 +82,9 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 
 ### 2. Lighting : 빛과 관련된 객체.
 -종류: Directional Light, Point Light, Spotlinght, Area Light, Planar Reflecion Probe, Reflecction Probe, Light Probe Group   
-#### Area Light: Spape로 모양 설정이 가능.   
+#### Area Light: Shape-Shape로 모양 설정이 가능.   
 #### Point Light: Mode에서 설정 가능. 
--Lighting Seting: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
+-Lighting Seting-Lighting-Scene-new lighting settings: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
 #### LightMap Resoultion: 퀄리티 조절.
 #### Bounces : 반사 횟수 조절.
 *LightMap : ???   

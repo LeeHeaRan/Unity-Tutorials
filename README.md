@@ -84,12 +84,20 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 -종류: Directional Light, Point Light, Spotlinght, Area Light, Planar Reflecion Probe, Reflecction Probe, Light Probe Group   
 #### Area Light: Shape-Shape로 모양 설정이 가능.   
 #### Point Light: Mode에서 설정 가능. 
--Lighting Seting-Lighting-Scene-new lighting settings: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
+####-Lighting Seting-Lighting-Scene-new lighting settings: 기본 라이팅 설정. https://docs.unity3d.com/kr/2018.4/Manual/GlobalIllumination.html   
 #### LightMap Resoultion: 퀄리티 조절. 높을수록 하이퀄리티.
 #### Bounces : 반사 횟수 조절.
 #### point light->Emission->IndirectMultipiler조절후 적용하기 위해서는 lighting setting에서 GenerateLighting을 해야함. =>귀찮으니까 Auto Generate해놓자.
 *Indirect Multiplier: 간접광과 환경광의 영향력을 조절한다.   
-//////11
+*Baked lightimaps: 작은 텍스쳐.   
+------------영상 11번까지의 내용-----------
+
+
+## 키워드로 학습하기.   
+1. Reflection Probe : 라이팅의 한 종류. 금속 같은 반사를 만들어냄. 박스로 빛에 반사되는 물체의 반사정도를 조절할 있음. capture setting으로 반사되는 물체의 위치를 조절가능.   
+2. new Material->Emission inputs : 빛이 나는 메터리얼을 만들어냄. Use Emission Intensity 를 check. Emission Intensity->EV100 
+ 
+
 
 
 

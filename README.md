@@ -30,7 +30,7 @@
 *Insert Edge Loop: 블랜더의 나이프.      
 **-Post Processing을 Install** : Volume을 사용할 수 있다.   
 **Volume**: 후처리 작업. 영상에 필터와 효과를 적용.    
-GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Intensity조절.->Camera에서  Post Processing체크, anti-aliasing에서 첫번째거 선택.   
+-GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Intensity조절.->Camera에서  Post Processing체크, anti-aliasing에서 첫번째거 선택.   
  8. **Per Object Limte**: 허용되는 빛의 수 제한. 멀리있는 right가 동작하지 않을 때. project setting->Graphics->Scriptable Render Pipeline Settings의 오브젝트 클릭->inspector에서 per object limie값 조절.   
 
 ## Materials and Lighting   
@@ -58,6 +58,7 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 
 
 ## 키워드로 학습하기.   
+### Materials and Lighting   
 1. Reflection Probe : 라이팅의 한 종류. 금속 같은 반사를 만들어냄. 박스로 빛에 반사되는 물체의 반사정도를 조절할 있음. capture setting으로 반사되는 물체의 위치를 조절가능.   
 2. new Material->Emission inputs : 빛이 나는 메터리얼을 만들어냄. Use Emission Intensity 를 check. Emission Intensity->EV100 
 3. ---Light->Shadows->Update Mode: 그림자 연산처리에 오래 걸림. 조절 할 수있음.
@@ -69,4 +70,7 @@ GameObject->Volume->Grobal Volume->profile의 new->Bloom추가. Threshold, Inten
 8-1. Inspector->Profile->new->add Overrid->color Curves:   
 8-2. Inspector->Profile->new->add Overrid->Post Processing->Vignette: color, intersity, smoothness, rounded를 체크. 화면 테두리를 날림.   
 8-3. Inspector->Profile->new->add Overrid->Post Processing->Depth Of Field: 블러처리를 할 수 있음. 초점을 맞춤. Focus Distance로 거리에 따라 블러를 처리할 수 있다.   
+### UI and 2D Games
+
+
 

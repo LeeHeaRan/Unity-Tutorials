@@ -54,7 +54,6 @@
  point light->Emission->IndirectMultipiler조절후 적용하기 위해서는 lighting setting에서 GenerateLighting을 해야함. =>귀찮으니까 Auto Generate해놓자.
 *Indirect Multiplier: 간접광과 환경광의 영향력을 조절한다.   
 *Baked lightimaps: 작은 텍스쳐.   
-------------영상 11번까지의 내용-----------
 
 
 ## 키워드로 학습하기.   
@@ -72,5 +71,9 @@
 8-3. Inspector->Profile->new->add Overrid->Post Processing->Depth Of Field: 블러처리를 할 수 있음. 초점을 맞춤. Focus Distance로 거리에 따라 블러를 처리할 수 있다.   
 ### UI and 2D Games
 
-
+### 애니메이션
+스켈레톤/본
+조인트
+베이크
+스킨
 

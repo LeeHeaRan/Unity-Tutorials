@@ -80,6 +80,10 @@
 1. 오브젝트를 한쪽 방향으로 계속 돌는 애니메이션만들기: 스크립트(Rotator.s)를 만든다. Update()안에 transform.Rotate(transform.up, RotSpeed * Time.deltaTime)을 작성하고 오브젝트에게 스크립트를 넣는다.   
 2. AnimationCurve, 시간적으로 변화가 있는 애니메이션 만들기: 스크립트(Mvoe.s)를 만든다. **소스파일 참조.**   
 3. Animation Event: Animator창에서 Add Event로 만든다.   
-![제목 없음-1](https://user-images.githubusercontent.com/48555909/130547635-8f77c069-a6ee-4c06-9ec6-ec4760b4a4c1.png)
-
+![제목 없음-1](https://user-images.githubusercontent.com/48555909/130547635-8f77c069-a6ee-4c06-9ec6-ec4760b4a4c1.png)   
+4. Animation Clip: 시간과 관계됨.
+*해당 애니메이션이 있는 캐릭터가 없다면 애니메이션은 실행되지 않는다.
+5. Rig의 Anumation type: 애니메이션 타입을 정할 수 있다.
+6. Animator 컴포넌트: Animator 창을 열어 노드로 조작할 수 있다.
+7. Animation Controller: Animator컴포넌트 안에 넣는 컨트롤러.
 

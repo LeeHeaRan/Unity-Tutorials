@@ -81,9 +81,15 @@
 2. AnimationCurve, 시간적으로 변화가 있는 애니메이션 만들기: 스크립트(Mvoe.s)를 만든다. **소스파일 참조.**   
 3. Animation Event: Animator창에서 Add Event로 만든다.   
 ![제목 없음-1](https://user-images.githubusercontent.com/48555909/130547635-8f77c069-a6ee-4c06-9ec6-ec4760b4a4c1.png)   
-4. Animation Clip: 시간과 관계됨.
-*해당 애니메이션이 있는 캐릭터가 없다면 애니메이션은 실행되지 않는다.
-5. Rig의 Anumation type: 애니메이션 타입을 정할 수 있다.
-6. Animator 컴포넌트: Animator 창을 열어 노드로 조작할 수 있다.
-7. Animation Controller: Animator컴포넌트 안에 넣는 컨트롤러.
+4. Animation Clip: 시간과 관계됨.   
+*해당 애니메이션이 있는 캐릭터가 없다면 애니메이션은 실행되지 않는다.   
+5. Rig의 Anumation type: 애니메이션 타입을 정할 수 있다.   
+6. Animator 컴포넌트: Animator 창을 열어 노드로 조작할 수 있다.   
+**7. Animation Controller: Animator컴포넌트 안에 넣는 컨트롤러. 컨트롤러가 비어있으면 애니는 실행되지 않는다. 만들수 있다. 캐릭터 별로 컨트롤러를 만들어소 관리하자.   
+   더블클릭하면 Animator창이 뜬다.   
+   Entry노드는 idle animation과 연결한다. 캐릭터와 잂치하는 애니메이션(같은 타입의 애니메이션을 연결)을 연결하지 않으면 동작하지 않는다.   
+8. 캐릭터 모델링을 클릭하면import setting이 나온다. Rig의 None, Legacy, Generic, humanoid(Configure를 클릭->씬에 가면 디테일을 확인할 수 있음. Muscles & Settings탭에 가면 캐릭터의 움직임을 조정해볼 수 있음.) 타입이 있다.   
+**Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.
+
+///10까지 봄
 

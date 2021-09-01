@@ -89,7 +89,6 @@
    더블클릭하면 Animator창이 뜬다.   
    Entry노드는 idle animation과 연결한다. 캐릭터와 잂치하는 애니메이션(같은 타입의 애니메이션을 연결)을 연결하지 않으면 동작하지 않는다.   
 8. 캐릭터 모델링을 클릭하면import setting이 나온다. Rig의 None, Legacy, Generic, humanoid(Configure를 클릭->씬에 가면 디테일을 확인할 수 있음. Muscles & Settings탭에 가면 캐릭터의 움직임을 조정해볼 수 있음.) 타입이 있다.   
-**Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.
-
-///10까지 봄
+**Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.   
+9. Animator창의 Pramiter 사용: 파라미터 값에 따라 노드를 실행 시킬 수 있다. (노드들을 연결하고 연결선을 클릭-> Conditions에 파라미터 추가)
 

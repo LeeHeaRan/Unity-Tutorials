@@ -91,5 +91,5 @@
 8. 캐릭터 모델링을 클릭하면import setting이 나온다. Rig의 None, Legacy, Generic, humanoid(Configure를 클릭->씬에 가면 디테일을 확인할 수 있음. Muscles & Settings탭에 가면 캐릭터의 움직임을 조정해볼 수 있음.) 타입이 있다.   
 **Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.   
 9. Animator창의 Pramiter 사용: 파라미터 값에 따라 노드를 실행 시킬 수 있다. (노드들을 연결하고 연결선을 클릭-> Conditions에 파라미터 추가)   
-![화면 캡처 2021-09-01 100233](https://user-images.githubusercontent.com/48555909/131595654-25e10c0b-0b61-49ab-9b28-3365a72a5b98.png)
-
+![화면 캡처 2021-09-01 100233](https://user-images.githubusercontent.com/48555909/131595654-25e10c0b-0b61-49ab-9b28-3365a72a5b98.png)   
+----------11까지 봄

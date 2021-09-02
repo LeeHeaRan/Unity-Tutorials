@@ -69,15 +69,15 @@
 8-1. Inspector->Profile->new->add Overrid->color Curves:   
 8-2. Inspector->Profile->new->add Overrid->Post Processing->Vignette: color, intersity, smoothness, rounded를 체크. 화면 테두리를 날림.   
 8-3. Inspector->Profile->new->add Overrid->Post Processing->Depth Of Field: 블러처리를 할 수 있음. 초점을 맞춤. Focus Distance로 거리에 따라 블러를 처리할 수 있다.   
-### UI and 2D Games
+## UI and 2D Games
 
-### 애니메이션
+## 애니메이션
 스켈레톤/본
 조인트
 베이크
 스킨
 
-1. 오브젝트를 한쪽 방향으로 계속 돌는 애니메이션만들기: 스크립트(Rotator.s)를 만든다. Update()안에 transform.Rotate(transform.up, RotSpeed * Time.deltaTime)을 작성하고 오브젝트에게 스크립트를 넣는다.   
+1. 오브젝트를 한쪽 방향으로 계속 돌는 애니메이션만들기: 스크립트(Rotator.s)를 만든다. **Update()안에 transform.Rotate(transform.up, RotSpeed * Time.deltaTime)을 작성하고 오브젝트에게 스크립트를 넣는다.   
 2. AnimationCurve, 시간적으로 변화가 있는 애니메이션 만들기: 스크립트(Mvoe.s)를 만든다. **소스파일 참조.**   
 3. Animation Event: Animator창에서 Add Event로 만든다.   
 ![제목 없음-1](https://user-images.githubusercontent.com/48555909/130547635-8f77c069-a6ee-4c06-9ec6-ec4760b4a4c1.png)   
@@ -92,4 +92,11 @@
 **Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.   
 9. Animator창의 Pramiter 사용: 파라미터 값에 따라 노드를 실행 시킬 수 있다. (노드들을 연결하고 연결선을 클릭-> Conditions에 파라미터 추가)   
 ![화면 캡처 2021-09-01 100233](https://user-images.githubusercontent.com/48555909/131595654-25e10c0b-0b61-49ab-9b28-3365a72a5b98.png)   
-----------11까지 봄
+<스크립트로 제어하기>   
+Animaotr thisAni = GatComponent<Animator>();
+ /-/   
+ **thisAni.SetTrigger("Jump"); **//파라미터는 변수로 선언해서 사용한다.(string paramName = "Jump")   
+ 10. TimeLine Sequencing   
+ -생성: window-Sequencing-Timeline. 오브젝트 클릭-create
+ 
+ 

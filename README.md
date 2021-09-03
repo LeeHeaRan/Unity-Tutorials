@@ -98,5 +98,5 @@ Animaotr thisAni = GatComponent<Animator>();
  **thisAni.SetTrigger("Jump"); **//파라미터는 변수로 선언해서 사용한다.(string paramName = "Jump")   
  10. TimeLine Sequencing   
  -생성: window-Sequencing-Timeline. 오브젝트 클릭-create
- ---14
+ 11. Cinemachine, Timeline, CM Camera
  

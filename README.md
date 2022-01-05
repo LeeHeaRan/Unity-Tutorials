@@ -54,10 +54,8 @@
  point light->Emission->IndirectMultipiler조절후 적용하기 위해서는 lighting setting에서 GenerateLighting을 해야함. =>귀찮으니까 Auto Generate해놓자.
 *Indirect Multiplier: 간접광과 환경광의 영향력을 조절한다.   
 *Baked lightimaps: 작은 텍스쳐.   
-
-
-## 키워드로 학습하기.   
-### Materials and Lighting   
+   
+### Materials and Lighting-키워드로..   
 1. Reflection Probe : 라이팅의 한 종류. 금속 같은 반사를 만들어냄. 박스로 빛에 반사되는 물체의 반사정도를 조절할 있음. capture setting으로 반사되는 물체의 위치를 조절가능.   
 2. new Material->Emission inputs : 빛이 나는 메터리얼을 만들어냄. Use Emission Intensity 를 check. Emission Intensity->EV100 
 3. ---Light->Shadows->Update Mode: 그림자 연산처리에 오래 걸림. 조절 할 수있음.
@@ -69,34 +67,23 @@
 8-1. Inspector->Profile->new->add Overrid->color Curves:   
 8-2. Inspector->Profile->new->add Overrid->Post Processing->Vignette: color, intersity, smoothness, rounded를 체크. 화면 테두리를 날림.   
 8-3. Inspector->Profile->new->add Overrid->Post Processing->Depth Of Field: 블러처리를 할 수 있음. 초점을 맞춤. Focus Distance로 거리에 따라 블러를 처리할 수 있다.   
-## UI and 2D Games
 
 ## 애니메이션
-스켈레톤/본
-조인트
-베이크
-스킨
+애니메이션을 구성하는 요소들: 스켈레톤/본, 조인트, 베이크, 스킨
 
-1. 오브젝트를 한쪽 방향으로 계속 돌는 애니메이션만들기: 스크립트(Rotator.s)를 만든다. **Update()안에 transform.Rotate(transform.up, RotSpeed * Time.deltaTime)을 작성하고 오브젝트에게 스크립트를 넣는다.   
-2. AnimationCurve, 시간적으로 변화가 있는 애니메이션 만들기: 스크립트(Mvoe.s)를 만든다. **소스파일 참조.**   
-3. Animation Event: Animator창에서 Add Event로 만든다.   
-![제목 없음-1](https://user-images.githubusercontent.com/48555909/130547635-8f77c069-a6ee-4c06-9ec6-ec4760b4a4c1.png)   
-4. Animation Clip: 시간과 관계됨.   
-*해당 애니메이션이 있는 캐릭터가 없다면 애니메이션은 실행되지 않는다.   
-5. Rig의 Anumation type: 애니메이션 타입을 정할 수 있다.   
-6. Animator 컴포넌트: Animator 창을 열어 노드로 조작할 수 있다.   
-**7. Animation Controller: Animator컴포넌트 안에 넣는 컨트롤러. 컨트롤러가 비어있으면 애니는 실행되지 않는다. 만들수 있다. 캐릭터 별로 컨트롤러를 만들어소 관리하자.   
-   더블클릭하면 Animator창이 뜬다.   
-   Entry노드는 idle animation과 연결한다. 캐릭터와 잂치하는 애니메이션(같은 타입의 애니메이션을 연결)을 연결하지 않으면 동작하지 않는다.   
-8. 캐릭터 모델링을 클릭하면import setting이 나온다. Rig의 None, Legacy, Generic, humanoid(Configure를 클릭->씬에 가면 디테일을 확인할 수 있음. Muscles & Settings탭에 가면 캐릭터의 움직임을 조정해볼 수 있음.) 타입이 있다.   
-**Animation탬에서는 선택한 애니메이션의 설정을 제어할 수 있다.   
-9. Animator창의 Pramiter 사용: 파라미터 값에 따라 노드를 실행 시킬 수 있다. (노드들을 연결하고 연결선을 클릭-> Conditions에 파라미터 추가)   
-![화면 캡처 2021-09-01 100233](https://user-images.githubusercontent.com/48555909/131595654-25e10c0b-0b61-49ab-9b28-3365a72a5b98.png)   
-<스크립트로 제어하기>   
-Animaotr thisAni = GatComponent<Animator>();
- /-/   
- **thisAni.SetTrigger("Jump"); **//파라미터는 변수로 선언해서 사용한다.(string paramName = "Jump")   
- 10. TimeLine Sequencing   
- -생성: window-Sequencing-Timeline. 오브젝트 클릭-create
- 11. Cinemachine, Timeline, CM Camera
+1. Animation Tab: key를 사용해 애니를 만들 수 있다.
+오브젝트를 선택한 상태에서 Create를 누르면 Clip을 생성->Key를 잡아 움직이도록 함
+*Curves를 조정해 조작할 수있다.
  
+06까지 봄
+
+
+
+
+
+
+
+
+
+
+
